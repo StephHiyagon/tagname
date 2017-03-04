@@ -7,7 +7,7 @@ for(var i=0; i<result; i++){
   if(enlaces[i].href==""){
     cont += 0;
   }else{
-    cont = 1;
+    cont += 1;
   }
 }
 document.getElementById('num_enlaces').innerHTML = cont;
