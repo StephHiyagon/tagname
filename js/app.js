@@ -1,7 +1,7 @@
 var enlaces = document.getElementsByTagName('a');
-console.log(enlaces);
+//console.log(enlaces);
 var result= enlaces.length;
-console.log(result);
+//console.log(result);
 var cont=0;
 for(var i=0; i<result; i++){
   if(enlaces[i].href==""){
@@ -10,4 +10,5 @@ for(var i=0; i<result; i++){
     cont += 1;
   }
 }
-document.getElementById('num_enlaces').innerHTML = cont;
+console.log(cont);
+document.getElementById('num_enlaces').innerHTML = result;
